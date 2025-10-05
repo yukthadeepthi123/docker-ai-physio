@@ -76,6 +76,7 @@ if uploaded_file:
                     # Log data
                     data_log.append({
                         "time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                        Rename app.py.txt to app.py
                         "right_arm_angle": angle_deg,
                         "feedback": feedback
                     })
@@ -101,3 +102,4 @@ if uploaded_file:
 
 else:
     st.info("Please upload a video to start the demo.")
+
